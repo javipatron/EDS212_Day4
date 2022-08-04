@@ -1,0 +1,45 @@
+---
+title: "Data Types"
+format: html
+editor: visual
+---
+
+
+#| warning: false
+#| echop: false
+
+
+```{r, include = FALSE}
+
+#| include: false
+#| warning: false
+#| echop: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(GGally)
+library(skimr)
+```
+
+## Exploratory Data Viz
+
+# Check out your data a bit:
+
+```{r}
+# Tell me the column names
+names(penguins)
+
+
+# What are the dimensions?
+dim(penguins)
+
+# Can you show me the first 6 lines?
+head(penguins)
+
+# Can you show me the last 6 lines?
+tail(penguins)
+
+class(penguins)
+```
+
+
